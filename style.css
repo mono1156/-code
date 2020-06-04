@@ -1,111 +1,146 @@
-
-body .Ranking h1{
-  padding-left: 200px;
-width: 100%;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-
-/* or 50px */
-
-
-color: #34675C;
-
+.container {
+  background: url(images/cca9273f27b7d53570e52f55b92aff0c-640x344\ 1\ \(1\).png) no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
 }
- .Ranking{
-  position: initial;
-  width: 100%;
-  height: 483px;
-  left: -2px;
-  top: 1279px;
-  
-  background: radial-gradient(59.11% 59.11% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #4CF0FB;
-}
-.Ranking h1{
+
+.header-logo {
+  color: white;
   position: absolute;
-width: 638px;
-height: 100px;
-padding-top: 30px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 137.69%;
-/* or 50px */
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.31em;
-
-color: #34675C;
-
-mix-blend-mode: normal;
+  top: 10px;
+  left: 10%;
+  font-size: 48px;
 }
 
-.item_wrapper {
-  list-style-type: none;
-  display: -ms-flexbox;
- font-size: large;
-  flex-wrap: wrap;
-  padding: 200px 200px;
-  margin: 0px;
-  align-items: baseline;
-}
-.h1{
+.header-title {
+  text-align: center;
   position: absolute;
-  width: 532px;
-  height: 100px;
- padding-top: 600px;
-  
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+}
+
+.content-inner{
+  padding: 98px;
+}
+.content-box{
+  background: linear-gradient(180deg, #5FF45C 0%, #D1FCD0 9.9%, #F5FEF5 18.23%, #FFFFFF 90.62%, rgba(63, 243, 59, 0) 100%),#b3c100;
+  display: inline-block;
+  text-align: center;
+  height: 98px;
+}
+.content-ttl{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 137.69%;
-  /* or 50px */
-  
-  display: flex;
-  align-items: center;
+  font-size: 33px;
+  padding-top: 10px;
+  color: #34675c;
+}
+
+.content-txt{
+border: double 10px rgb(180, 230, 179);
+max-width: 1000px;
+padding-bottom: 150px;
+}
+
+.content2-Ranking{
+  background: radial-gradient(59.11% 59.11% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #4CF0FB;
+  mix-blend-mode: multiply;
+  margin-top:250px;
+  padding-top: -100px;
+padding-bottom: 250px;
+
+background-image: url(images/images\ 1.png);
+background-repeat: no-repeat;
+background-position-x: 840px;
+background-position-y: bottom;
+}
+.content2-inner{
+  padding: 150px 100px 100px 100px;
+}
+.content2-box{
+  background:linear-gradient(180deg, #5FF45C 0%, #D1FCD0 9.9%, #F5FEF5 18.23%, #FFFFFF 90.62%, rgba(63, 243, 59, 0) 100%), #B3C100; 
   text-align: center;
-  letter-spacing: 0.235em;
-  
-  color: #34675C;
-  
+  height: 110px;
+  margin-top: -120px;
+}
+.content2-ttl{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 137.69%;
+padding-top: 30px;
+color: #34675c;
 }
 
-.introduce{
-  clear: left;
+
+.content2-Rankstyle{
+  counter-reset:ctr-ranking;           /* カウンターをリセット */
+  padding: 100px 0 0 0;
+  text-align:left;                     /* 左寄せ */
+  font-size: 30px;                     /* フォントサイズ */
+  margin-left:20px;                    /* 左の余白高さ */
 }
 
-.introduce img{
-  padding-top: 200px;
-float: left;
-margin: 50px 10px 10px 0;
-transition-duration: 1s;
-transition-timing-function: ease;
-/* transition-timing-function: ease-in; */
-transition-delay: 0s;
+.content2-Rankstyle li{
+  position   : relative;               /* 指定した分だけ相対的に移動 */
+  line-height: 3;                      /* 行の高さ */
+}
+.content2-Rankstyle li:nth-child(-n+3){
+  list-style-type : none ;             /* リストマーク消す */
 }
 
-.introduce img:hover {
-    opacity: .5;
+.main-inner{
+  padding: 100px;
 }
 
-.infomation h2{
-  padding-top: 300px;
-  
-  font-size: 18px;
- margin: 0 10px 10px 0;
- float: left;
+.main-box{
+  background: linear-gradient(180deg, #5FF45C 0%, #D1FCD0 9.9%, #F5FEF5 18.23%, #FFFFFF 90.62%, rgba(63, 243, 59, 0) 100%), #B3C100;
+  mix-blend-mode: multiply;
+ margin-top: 100px;
+ text-align: center;
+ height: 110px;
 }
 
-.infomation .type {
+.main-ttl{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 137.69%;
+color: #34675C;
+padding-top: 5px;
+}
 
-display: inline;
-padding: 3px 5px;
-font-size: 80%;
-color: #fff;
+.main-subttl{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 137.69%;
+width: auto;
+text-align: left;
+padding: 40px;
+-webkit-text-stroke: 1px#FFFFFF;
+}
+
+.under{
+  background: linear-gradient(transparent 50%, #60c9e9 50%);
+}
+.img{
+width: 50px;
+height: 50px;
+}
+
+.main-txt{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bolder;
+font-size: 25px;
+;
+color: #34675C;
 }
